@@ -17,9 +17,9 @@ def hello():
     return render_template('index.html')
 
 
-@app.route("/1006/")
+@app.route("/courses/")
 def display_stuff():
-    return render_template('index.html')
+    return render_template('coursepage.html')
 
 
 #start the server
